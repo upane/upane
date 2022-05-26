@@ -1,7 +1,7 @@
 
 <!--## 😄 Github Status-->
 <div class="half">
-  <a href="https://github.com/martinageradams"><img src="https://github-readme-stats.vercel.app/api?username=upane&title_color=1abc9c&icon_color=1abc9c&text_color=798795&bg_color=2c3e50"></img></a>
+  <a href="https://github.com/martinageradams"><img src="https://github-readme-stats.vercel.app/api?username=upane&show_icons=true&theme=tokyonight)"></img></a>
   <a href="https://github.com/martinageradams"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=upane&count_private=true&hide=scss,css,shell&title_color=1abc9c&icon_color=1abc9c&text_color=798795&bg_color=2c3e50" height="195"></img></a>
 </div>
 
