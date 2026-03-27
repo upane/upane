@@ -24,7 +24,7 @@
   function el(tag, attrs = {}, children = []) {
     const node = document.createElement(tag);
 
-    for (const [key, value] of Object.entries(attrs)) {
+    for (const [key, value] of Object.entries(attrs || {})) {
       if (value === null || value === undefined) continue;
 
       if (key === "className") {
