@@ -1019,12 +1019,6 @@
   }
 
   async function loadData(force = false) {
-    if (state.loading && !force) {
-      root.innerHTML = "";
-      root.appendChild(renderLoading());
-      return;
-    }
-
     state.loading = true;
     state.error = null;
 
