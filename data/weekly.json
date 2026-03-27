@@ -1,0 +1,399 @@
+{
+  "title": "推理资讯周报",
+  "subtitle": "基于豆瓣移动端 API 自动抓取的推理小说每周推荐",
+  "theme": "推理小说每周推荐",
+  "week": "03/23 - 03/29",
+  "updatedAt": "2026-03-27T07:58:28.092Z",
+  "generatedAt": "2026-03-27T07:58:28.092Z",
+  "source": {
+    "type": "douban-mobile-api",
+    "url": "https://m.douban.com/rexxar/api/v2/search/book",
+    "detail": "https://m.douban.com/rexxar/api/v2/book/{id}",
+    "web": "https://m.douban.com/book/subject/"
+  },
+  "itemCount": 10,
+  "books": [
+    {
+      "id": "36647809",
+      "title": "桥头楼上",
+      "author": "Priest",
+      "rating": 0,
+      "ratingCount": 4612,
+      "cover": "https://img9.doubanio.com/view/subject/m/public/s34807166.jpg",
+      "summary": "",
+      "reason": "来自豆瓣移动端关键词「悬疑小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/36647809/",
+      "publishedAt": "2024-3",
+      "publisher": "国际文化出版公司",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "6265770",
+      "title": "谋杀的魅影",
+      "author": "褚盟",
+      "rating": 0,
+      "ratingCount": 1429,
+      "cover": "https://img1.doubanio.com/view/subject/m/public/s5344978.jpg",
+      "summary": "世界推理小说简史",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/6265770/",
+      "publishedAt": "2011-6",
+      "publisher": "古吴轩出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "35291248",
+      "title": "放学后的小巷",
+      "author": "钟声礼",
+      "rating": 0,
+      "ratingCount": 1105,
+      "cover": "https://img3.doubanio.com/view/subject/m/public/s33945502.jpg",
+      "summary": "第一届QED推理小说奖获奖作品",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/35291248/",
+      "publishedAt": "2021-7",
+      "publisher": "人民文学出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "35929083",
+      "title": "狩猎愉快",
+      "author": "褚盟",
+      "rating": 0,
+      "ratingCount": 1043,
+      "cover": "https://img9.doubanio.com/view/subject/m/public/s34423064.jpg",
+      "summary": "世界推理小说简史",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/35929083/",
+      "publishedAt": "2022-11",
+      "publisher": "浙江文艺出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "1890955",
+      "title": "高层的死角",
+      "author": "(日)森村诚一",
+      "rating": 0,
+      "ratingCount": 1009,
+      "cover": "https://img1.doubanio.com/view/subject/m/public/s1859118.jpg",
+      "summary": "日本推理小说文库",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/1890955/",
+      "publishedAt": "2000",
+      "publisher": "群众出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "1119051",
+      "title": "越界（上/下）",
+      "author": "（日）桐野夏生",
+      "rating": 0,
+      "ratingCount": 993,
+      "cover": "https://img9.doubanio.com/view/subject/m/public/s33518206.jpg",
+      "summary": "日本最新获奖推理小说",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/1119051/",
+      "publishedAt": "2000-7",
+      "publisher": "山东文艺出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "4836926",
+      "title": "推理小说",
+      "author": "(日) 秦建日子",
+      "rating": 0,
+      "ratingCount": 882,
+      "cover": "https://img3.doubanio.com/view/subject/m/public/s4631372.jpg",
+      "summary": "",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/4836926/",
+      "publishedAt": "2010年6月",
+      "publisher": "南京大学出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "37381807",
+      "title": "作者不详",
+      "author": "[日] 三津田信三",
+      "rating": 0,
+      "ratingCount": 851,
+      "cover": "https://img1.doubanio.com/view/subject/m/public/s35269018.jpg",
+      "summary": "推理小说作家所读之书",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/37381807/",
+      "publishedAt": "2025-8",
+      "publisher": "花城出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "3101617",
+      "title": "日本短篇推理小说选",
+      "author": "[日] 江户川乱步,[日] 松本清张,[日] 森村诚一,[日] 横沟正史,[日] 水上勉,[日] 佐野洋,[日] 西村京太郎,[日] 鲇川哲也,[日] 石泽英太郎,[日] 仁木悦子,生岛治郎",
+      "rating": 0,
+      "ratingCount": 776,
+      "cover": "https://img2.doubanio.com/view/subject/m/public/s3344391.jpg",
+      "summary": "",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/3101617/",
+      "publishedAt": "1981-8",
+      "publisher": "辽宁人民出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "36098366",
+      "title": "悬疑小说的构思与写作",
+      "author": "〔美〕帕特里夏•海史密斯",
+      "rating": 0,
+      "ratingCount": 343,
+      "cover": "https://img1.doubanio.com/view/subject/m/public/s34313220.jpg",
+      "summary": "",
+      "reason": "来自豆瓣移动端关键词「悬疑小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/36098366/",
+      "publishedAt": "2022-9",
+      "publisher": "人民文学出版社",
+      "originTitle": "",
+      "isbn": ""
+    }
+  ],
+  "items": [
+    {
+      "id": "36647809",
+      "title": "桥头楼上",
+      "author": "Priest",
+      "rating": 0,
+      "ratingCount": 4612,
+      "cover": "https://img9.doubanio.com/view/subject/m/public/s34807166.jpg",
+      "summary": "",
+      "reason": "来自豆瓣移动端关键词「悬疑小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/36647809/",
+      "publishedAt": "2024-3",
+      "publisher": "国际文化出版公司",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "6265770",
+      "title": "谋杀的魅影",
+      "author": "褚盟",
+      "rating": 0,
+      "ratingCount": 1429,
+      "cover": "https://img1.doubanio.com/view/subject/m/public/s5344978.jpg",
+      "summary": "世界推理小说简史",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/6265770/",
+      "publishedAt": "2011-6",
+      "publisher": "古吴轩出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "35291248",
+      "title": "放学后的小巷",
+      "author": "钟声礼",
+      "rating": 0,
+      "ratingCount": 1105,
+      "cover": "https://img3.doubanio.com/view/subject/m/public/s33945502.jpg",
+      "summary": "第一届QED推理小说奖获奖作品",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/35291248/",
+      "publishedAt": "2021-7",
+      "publisher": "人民文学出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "35929083",
+      "title": "狩猎愉快",
+      "author": "褚盟",
+      "rating": 0,
+      "ratingCount": 1043,
+      "cover": "https://img9.doubanio.com/view/subject/m/public/s34423064.jpg",
+      "summary": "世界推理小说简史",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/35929083/",
+      "publishedAt": "2022-11",
+      "publisher": "浙江文艺出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "1890955",
+      "title": "高层的死角",
+      "author": "(日)森村诚一",
+      "rating": 0,
+      "ratingCount": 1009,
+      "cover": "https://img1.doubanio.com/view/subject/m/public/s1859118.jpg",
+      "summary": "日本推理小说文库",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/1890955/",
+      "publishedAt": "2000",
+      "publisher": "群众出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "1119051",
+      "title": "越界（上/下）",
+      "author": "（日）桐野夏生",
+      "rating": 0,
+      "ratingCount": 993,
+      "cover": "https://img9.doubanio.com/view/subject/m/public/s33518206.jpg",
+      "summary": "日本最新获奖推理小说",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/1119051/",
+      "publishedAt": "2000-7",
+      "publisher": "山东文艺出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "4836926",
+      "title": "推理小说",
+      "author": "(日) 秦建日子",
+      "rating": 0,
+      "ratingCount": 882,
+      "cover": "https://img3.doubanio.com/view/subject/m/public/s4631372.jpg",
+      "summary": "",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/4836926/",
+      "publishedAt": "2010年6月",
+      "publisher": "南京大学出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "37381807",
+      "title": "作者不详",
+      "author": "[日] 三津田信三",
+      "rating": 0,
+      "ratingCount": 851,
+      "cover": "https://img1.doubanio.com/view/subject/m/public/s35269018.jpg",
+      "summary": "推理小说作家所读之书",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/37381807/",
+      "publishedAt": "2025-8",
+      "publisher": "花城出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "3101617",
+      "title": "日本短篇推理小说选",
+      "author": "[日] 江户川乱步,[日] 松本清张,[日] 森村诚一,[日] 横沟正史,[日] 水上勉,[日] 佐野洋,[日] 西村京太郎,[日] 鲇川哲也,[日] 石泽英太郎,[日] 仁木悦子,生岛治郎",
+      "rating": 0,
+      "ratingCount": 776,
+      "cover": "https://img2.doubanio.com/view/subject/m/public/s3344391.jpg",
+      "summary": "",
+      "reason": "来自豆瓣移动端关键词「推理小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/3101617/",
+      "publishedAt": "1981-8",
+      "publisher": "辽宁人民出版社",
+      "originTitle": "",
+      "isbn": ""
+    },
+    {
+      "id": "36098366",
+      "title": "悬疑小说的构思与写作",
+      "author": "〔美〕帕特里夏•海史密斯",
+      "rating": 0,
+      "ratingCount": 343,
+      "cover": "https://img1.doubanio.com/view/subject/m/public/s34313220.jpg",
+      "summary": "",
+      "reason": "来自豆瓣移动端关键词「悬疑小说」搜索结果",
+      "tags": [
+        "豆瓣",
+        "推理"
+      ],
+      "doubanUrl": "https://book.douban.com/subject/36098366/",
+      "publishedAt": "2022-9",
+      "publisher": "人民文学出版社",
+      "originTitle": "",
+      "isbn": ""
+    }
+  ]
+}

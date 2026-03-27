@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="推理资讯周报 · GitHub Pages 免费托管的每周精选推理书单"
+        />
+        <meta name="color-scheme" content="dark" />
+        <meta name="theme-color" content="#07111f" />
+        <title>推理资讯周报 · 每周精选</title>
+
+        <link rel="preconnect" href="https://img1.doubanio.com" />
+        <link rel="preconnect" href="https://img3.doubanio.com" />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div id="app">
+            <main class="page-shell" aria-busy="true">
+                <header class="hero">
+                    <div class="hero__meta">
+                        <span class="badge badge--primary">每周报告</span>
+                        <span class="badge badge--success"
+                            >GitHub Pages 免费托管</span
+                        >
+                    </div>
+
+                    <h1>推理资讯周报</h1>
+                    <p>
+                        这里展示本周精选推理书单、评分与推荐理由。页面由脚本自动生成，部署到
+                        GitHub Pages 后可免费持续更新。
+                    </p>
+
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="#weekly-books"
+                            >查看本周精选</a
+                        >
+                        <a
+                            class="btn btn--accent"
+                            href="./data/weekly.json"
+                            target="_blank"
+                            rel="noreferrer"
+                            >查看数据源</a
+                        >
+                    </div>
+                </header>
+
+                <section class="toolbar" aria-label="周报概览">
+                    <div class="toolbar__group">
+                        <span class="toolbar__label">数据状态</span>
+                        <span class="badge">正在加载最新周报</span>
+                    </div>
+                    <div class="toolbar__group">
+                        <span class="toolbar__label">说明</span>
+                        <span class="badge">图片仅使用远程 URL / base64</span>
+                    </div>
+                </section>
+
+                <section class="grid" aria-label="页面布局">
+                    <article class="panel panel--strong">
+                        <header class="panel__header">
+                            <div>
+                                <h2 class="panel__title">本周精选</h2>
+                                <div class="panel__subtitle">
+                                    自动抓取、自动排序、自动更新
+                                </div>
+                            </div>
+                            <a
+                                class="link link--subtle"
+                                href="./data/weekly.json"
+                                target="_blank"
+                                rel="noreferrer"
+                                >JSON 数据</a
+                            >
+                        </header>
+                        <div class="panel__body">
+                            <section class="section">
+                                <h3 class="section__title">本周看点</h3>
+                                <p class="muted" style="margin: 0">
+                                    本页会在脚本生成 weekly.json
+                                    后自动渲染。本周精选、评分和推荐理由都会随着数据刷新而更新，适合直接发布到
+                                    GitHub Pages。
+                                </p>
+                            </section>
+
+                            <section class="section">
+                                <h3 class="section__title">筛选方式</h3>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <span class="list__bullet"></span>
+                                        <div class="list__content">
+                                            <p class="list__title">固定阈值</p>
+                                            <p class="list__text">
+                                                评分达到预设阈值后优先进入精选，不随数据波动动态变化。
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="list__item">
+                                        <span class="list__bullet"></span>
+                                        <div class="list__content">
+                                            <p class="list__title">远程封面</p>
+                                            <p class="list__text">
+                                                优先使用豆瓣远程封面，缺失时自动回退到内嵌
+                                                SVG 占位图。
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="list__item">
+                                        <span class="list__bullet"></span>
+                                        <div class="list__content">
+                                            <p class="list__title">详情直达</p>
+                                            <p class="list__text">
+                                                每本书都保留真实豆瓣详情页链接，方便继续阅读和收藏。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </article>
+
+                    <aside class="panel">
+                        <header class="panel__header">
+                            <div>
+                                <h2 class="panel__title">本周更新状态</h2>
+                                <div class="panel__subtitle">
+                                    等待脚本渲染最新数据
+                                </div>
+                            </div>
+                        </header>
+                        <div class="panel__body">
+                            <section class="section">
+                                <h3 class="section__title">当前信息</h3>
+                                <div class="kpi">
+                                    <div class="kpi__item">
+                                        <p class="kpi__value">自动</p>
+                                        <p class="kpi__label">更新方式</p>
+                                    </div>
+                                    <div class="kpi__item">
+                                        <p class="kpi__value">豆瓣</p>
+                                        <p class="kpi__label">数据来源</p>
+                                    </div>
+                                    <div class="kpi__item">
+                                        <p class="kpi__value">每周</p>
+                                        <p class="kpi__label">更新频率</p>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="section">
+                                <h3 class="section__title">加载提示</h3>
+                                <p class="dimmer" style="margin: 0">
+                                    如果你看到这一页，说明静态框架已经成功加载。接下来页面会由
+                                    <code>app.js</code> 读取
+                                    <code>weekly.json</code> 并渲染完整周报。
+                                </p>
+                            </section>
+                        </div>
+                    </aside>
+                </section>
+
+                <section
+                    id="weekly-books"
+                    class="section"
+                    aria-label="本周书单"
+                >
+                    <h2 class="section__title">本周书单</h2>
+                    <div class="cards" aria-live="polite">
+                        <article class="card skeleton" aria-hidden="true">
+                            <div class="card__cover"></div>
+                            <div class="card__content">
+                                <h3 class="card__title">正在加载数据…</h3>
+                                <div class="card__meta">
+                                    <span class="tag tag--primary"
+                                        >等待更新</span
+                                    >
+                                    <span class="tag tag--accent">豆瓣</span>
+                                </div>
+                                <p class="card__desc">
+                                    本页会在脚本完成后展示真实的推理小说推荐、评分、封面和详情页链接。
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="card skeleton" aria-hidden="true">
+                            <div class="card__cover"></div>
+                            <div class="card__content">
+                                <h3 class="card__title">正在加载数据…</h3>
+                                <div class="card__meta">
+                                    <span class="tag tag--primary"
+                                        >等待更新</span
+                                    >
+                                    <span class="tag tag--success"
+                                        >自动筛选</span
+                                    >
+                                </div>
+                                <p class="card__desc">
+                                    如果数据刷新成功，这里会被替换成真实书目卡片。
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <footer class="footer">
+                    <p>推理资讯周报 · GitHub Pages 免费托管的每周精选首页</p>
+                    <p>若列表为空，请稍后刷新，或等待下一次自动更新完成。</p>
+                </footer>
+            </main>
+
+            <noscript>
+                <div
+                    style="
+                        padding: 24px;
+                        color: #edf4ff;
+                        font-family: sans-serif;
+                    "
+                >
+                    该页面需要启用 JavaScript 才能加载最新周报数据。
+                </div>
+            </noscript>
+        </div>
+
+        <script src="./app.js" defer></script>
+    </body>
+</html>
