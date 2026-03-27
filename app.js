@@ -1,5 +1,5 @@
 (() => {
-  const DATA_URL = "./data/weekly.json";
+  const DATA_URL_CANDIDATES = ["./data/weekly.json"];
   const FEATURED_RATING_THRESHOLD = 8.0;
   const FEATURED_LIMIT = 3;
 
@@ -194,7 +194,6 @@
   }
 
   function resolveCover(value, title, author) {
-    if (isRemoteImage(value)) return String(value).trim();
     return placeholderCover(title, author);
   }
 
@@ -1018,6 +1017,46 @@
     root.appendChild(content);
   }
 
+  function getWeeklyJsonCandidates() {
+    const pathname = window.location.pathname || "/";
+    const candidates = [
+      "./data/weekly.json",
+      "/data/weekly.json",
+      "/upane/data/weekly.json",
+    ];
+
+    const segments = pathname.split("/").filter(Boolean);
+    if (segments.length > 0) {
+      candidates.push(`/${segments[0]}/data/weekly.json`);
+    }
+
+    return [...new Set(candidates)];
+  }
+
+  async function fetchWeeklyDataWithFallback() {
+    const candidates = [
+      ...new Set([...DATA_URL_CANDIDATES, ...getWeeklyJsonCandidates()]),
+    ];
+
+    let lastError = null;
+
+    for (const url of candidates) {
+      try {
+        const response = await fetch(url, { cache: "no-store" });
+        if (!response.ok) {
+          lastError = new Error(`无法读取 ${url}（HTTP ${response.status}）`);
+          continue;
+        }
+
+        return await response.json();
+      } catch (error) {
+        lastError = error instanceof Error ? error : new Error(String(error));
+      }
+    }
+
+    throw lastError || new Error("无法读取 weekly.json");
+  }
+
   async function loadData(force = false) {
     state.loading = true;
     state.error = null;
@@ -1026,12 +1065,7 @@
     root.appendChild(renderLoading());
 
     try {
-      const response = await fetch(DATA_URL, { cache: "no-store" });
-      if (!response.ok) {
-        throw new Error(`无法读取 ${DATA_URL}（HTTP ${response.status}）`);
-      }
-
-      const raw = await response.json();
+      const raw = await fetchWeeklyDataWithFallback();
       const normalized = normalizeData(raw);
       const ranked = sortBooks(uniqueBooks(normalized.books));
 
